@@ -16,6 +16,7 @@ alias bubobco="brew update && brew outdated && brew outdated --cask"
 alias glon="git log --oneline -n 5"
 alias gs="git status"
 alias lst="ls -alht"
+alias r="/usr/local/Caskroom/miniforge/base/envs/r-console/bin/radian"
 
 # shortcuts
 omz=~/.oh-my-zsh/custom/custom.zsh
