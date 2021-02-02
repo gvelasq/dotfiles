@@ -1,0 +1,55 @@
+[
+    {
+        "description": "View: Show R Workspace",
+        "key": "alt+r",
+        "command": "workbench.view.extension.workspaceViewer"
+    },
+    {
+        "description": "R: Create R Terminal",
+        "key": "alt+`",
+        "command": "r.createRTerm"
+    },
+    {
+        "description": "R: Insert Assignment Operator",
+        "key": "alt+-",
+        "command": "type",
+        "when": "editorLangId == r || editorLangId == rmd && editorTextFocus",
+        "args": { "text": " <- " }
+    },
+    {
+        "description": "R: Insert Pipe Operator",
+        "key": "shift+cmd+m",
+        "command": "type",
+        "when": "editorLangId == r || editorLangId == rmd && editorTextFocus",
+        "args": { "text": " %>% " }
+    },
+    {
+        "description": "R: Insert Assignment Pipe Operator",
+        "key": "shift+cmd+,",
+        "command": "type",
+        "when": "editorLangId == r || editorLangId == rmd && editorTextFocus",
+        "args": { "text": " %<>% " }
+    },
+    {
+        "description": "R: Insert Tee Pipe Operator",
+        "key": "shift+cmd+.",
+        "command": "type",
+        "when": "editorLangId == r || editorLangId == rmd && editorTextFocus",
+        "args": { "text": " %T>% " }
+    },
+    {
+        "description": "R: Test Package",
+        "key": "shift+cmd+8",
+        "command": "r.test"
+    },
+    {
+        "description": "R: Document",
+        "key": "shift+cmd+9",
+        "command": "r.document"
+    },
+    {
+        "description": "R: Load All",
+        "key": "shift+cmd+0",
+        "command": "r.loadAll",
+    }
+]
