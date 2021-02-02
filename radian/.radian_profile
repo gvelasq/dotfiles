@@ -1,0 +1,7 @@
+options(
+    radian.insert_new_line = FALSE,
+    radian.escape_key_map = list(
+        list(key = "-", value = " <- "),
+        list(key = "m", value = " %>% ")
+    )
+)
