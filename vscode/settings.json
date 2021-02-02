@@ -1,0 +1,24 @@
+{
+    // Liveshare: Prompt when receiving focus requests
+    "liveshare.focusBehavior": "prompt",
+    // R: Treat`names.like.this` as one word for selection
+    "[r]": {
+        "editor.wordSeparators": "`~!@#%$^&*()-=+[{]}\\|;:'\",<>/?"
+    },
+    // R: Use active terminal for all commands
+    "r.alwaysUseActiveTerminal": true,
+    // R: Use bracketed paste mode when sending code to console (radian)
+    "r.bracketedPaste": true,
+    // R: R or radian path for macOS
+    "r.rterm.mac": "/usr/local/Caskroom/miniforge/base/envs/r-console/bin/radian",
+    // R: Enable R session watcher (experimental)
+    "r.sessionWatcher": true,
+    // R: Remove hidden items when clearing R workspace
+    "r.workspaceViewer.removeHiddenItems": true,
+    // Telemetry: Disable Microsoft crash reporter
+    "telemetry.enableCrashReporter": false,
+    // Telemetry: Disable Microsoft telemetry
+    "telemetry.enableTelemetry": false,
+    // Terminal: Path to integrated shell on macOS
+    "terminal.integrated.shell.osx": "/bin/zsh"
+}
