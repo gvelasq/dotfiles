@@ -1,5 +1,61 @@
 [
     {
+        "description": "Insert Assignment Operator (Editor)",
+        "key": "alt+-",
+        "command": "type",
+        "when": "editorLangId == r || editorLangId == rmd && editorTextFocus",
+        "args": { "text": " <- " }
+    },
+    {
+        "description": "Insert Assignment Operator (Terminal)",
+        "key": "alt+-",
+        "command": "workbench.action.terminal.sendSequence",
+        "when": "terminalFocus",
+        "args": { "text": " <- " }
+    },
+    {
+        "description": "Insert Pipe Operator (Editor)",
+        "key": "shift+cmd+m",
+        "command": "type",
+        "when": "editorLangId == r || editorLangId == rmd && editorTextFocus",
+        "args": { "text": " %>% " }
+    },
+    {
+        "description": "Insert Pipe Operator (Terminal)",
+        "key": "shift+cmd+m",
+        "command": "workbench.action.terminal.sendSequence",
+        "when": "terminalFocus",
+        "args": { "text": " %>% " }
+    },
+    {
+        "description": "Insert Assignment Pipe Operator (Editor)",
+        "key": "shift+cmd+,",
+        "command": "type",
+        "when": "editorLangId == r || editorLangId == rmd && editorTextFocus",
+        "args": { "text": " %<>% " }
+    },
+    {
+        "description": "Insert Assignment Pipe Operator (Terminal)",
+        "key": "shift+cmd+,",
+        "command": "workbench.action.terminal.sendSequence",
+        "when": "terminalFocus",
+        "args": { "text": " %<>% " }
+    },
+    {
+        "description": "Insert Tee Pipe Operator (Editor)",
+        "key": "shift+cmd+.",
+        "command": "type",
+        "when": "editorLangId == r || editorLangId == rmd && editorTextFocus",
+        "args": { "text": " %T>% " }
+    },
+    {
+        "description": "Insert Tee Pipe Operator (Terminal)",
+        "key": "shift+cmd+.",
+        "command": "workbench.action.terminal.sendSequence",
+        "when": "terminalFocus",
+        "args": { "text": " %T>% " }
+    },
+    {
         "description": "View: Show R Workspace",
         "key": "alt+r",
         "command": "workbench.view.extension.workspaceViewer"
@@ -8,34 +64,6 @@
         "description": "R: Create R Terminal",
         "key": "alt+`",
         "command": "r.createRTerm"
-    },
-    {
-        "description": "R: Insert Assignment Operator",
-        "key": "alt+-",
-        "command": "type",
-        "when": "editorLangId == r || editorLangId == rmd && editorTextFocus",
-        "args": { "text": " <- " }
-    },
-    {
-        "description": "R: Insert Pipe Operator",
-        "key": "shift+cmd+m",
-        "command": "type",
-        "when": "editorLangId == r || editorLangId == rmd && editorTextFocus",
-        "args": { "text": " %>% " }
-    },
-    {
-        "description": "R: Insert Assignment Pipe Operator",
-        "key": "shift+cmd+,",
-        "command": "type",
-        "when": "editorLangId == r || editorLangId == rmd && editorTextFocus",
-        "args": { "text": " %<>% " }
-    },
-    {
-        "description": "R: Insert Tee Pipe Operator",
-        "key": "shift+cmd+.",
-        "command": "type",
-        "when": "editorLangId == r || editorLangId == rmd && editorTextFocus",
-        "args": { "text": " %T>% " }
     },
     {
         "description": "R: Test Package",
