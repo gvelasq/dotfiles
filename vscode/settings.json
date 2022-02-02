@@ -1,4 +1,6 @@
 {
+    // Editor: Enable bracket pair colorization
+    "editor.bracketPairColorization.enabled": true,
     // Liveshare: Prompt when receiving focus requests
     "liveshare.focusBehavior": "prompt",
     // R: Treat`names.like.this` as one word for selection
@@ -10,15 +12,15 @@
     // R: Use bracketed paste mode when sending code to console (radian)
     "r.bracketedPaste": true,
     // R: R or radian path for macOS
-    "r.rterm.mac": "/usr/local/Caskroom/miniforge/base/envs/r-console/bin/radian",
+    "r.rterm.mac": "/usr/local/Caskroom/miniforge/base/envs/r/bin/radian",
     // R: Enable R session watcher (experimental)
     "r.sessionWatcher": true,
     // R: Remove hidden items when clearing R workspace
     "r.workspaceViewer.removeHiddenItems": true,
-    // Telemetry: Disable Microsoft crash reporter
-    "telemetry.enableCrashReporter": false,
     // Telemetry: Disable Microsoft telemetry
-    "telemetry.enableTelemetry": false,
+    "telemetry.telemetryLevel": "off",
     // Terminal: Path to integrated shell on macOS
-    "terminal.integrated.shell.osx": "/bin/zsh"
+    "terminal.integrated.automationShell.osx": "/bin/zsh",
+    // Workbench: Disable experiments
+    "workbench.enableExperiments": false
 }
