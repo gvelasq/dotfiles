@@ -2,6 +2,12 @@ if (interactive()) {
   suppressMessages(require(devtools))
   suppressMessages(require(usethis))
 }
+if (Sys.info()[["sysname"]] == "Linux") {
+  options(
+    HTTPUserAgent = sprintf("R/%s R (%s)", getRversion(), paste(getRversion(), R.version["platform"], R.version["arch"], R.version["os"])),
+    repos = c(REPO_NAME = "https://packagemanager.rstudio.com/all/__linux__/focal/latest")
+  )
+}
 
 options(
   usethis.description = list(
