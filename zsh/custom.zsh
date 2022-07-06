@@ -26,7 +26,7 @@ alias glon="git log --oneline -n 5"
 alias gpom="git push origin main"
 alias gs="git status"
 alias lst="ls -alht"
-alias r="/usr/local/Caskroom/miniforge/base/envs/r-console/bin/radian"
+alias r="/usr/local/Caskroom/miniforge/base/envs/r/bin/radian"
 
 # shortcuts
 omz=~/.oh-my-zsh/custom/custom.zsh
