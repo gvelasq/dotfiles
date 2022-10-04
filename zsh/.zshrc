@@ -1,6 +1,9 @@
 # Path to Doom Emacs
 export PATH="$HOME/.emacs.d/bin:$PATH"
 
+# Path to Stata/MP
+export PATH="/Applications/Stata/StataMP.app/Contents/MacOS/:$PATH"
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
