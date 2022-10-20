@@ -1,0 +1,18 @@
+{
+    "editor_theme": "Tomorrow Night Bright",
+    "pdf_previewer": "none",
+    "posix_terminal_shell": "zsh",
+    "scroll_past_end_of_document": true,
+    "wrap_tab_navigation": false,
+    "console_double_click_select": true,
+    "save_workspace": "never",
+    "default_project_location": "~/code",
+    "jobs_tab_visibility": "shown",
+    "initial_working_directory": "~",
+    "rainbow_parentheses": true,
+    "git_exe_path": "/usr/local/bin/git",
+    "source_with_echo": true,
+    "rmd_auto_date": true,
+    "document_author": "gvelasq",
+    "show_hidden_files": true
+}
