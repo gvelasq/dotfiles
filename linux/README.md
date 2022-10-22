@@ -51,17 +51,19 @@ rig add release
 
 10. Install [RStudio Desktop Preview](https://www.rstudio.com/products/rstudio/download/preview/).
 
-11. Configure [`.Rprofile`](https://github.com/gvelasq/dotfiles/blob/main/R/.Rprofile) and [RStudio snippets](https://github.com/gvelasq/dotfiles/blob/main/rstudio/r.snippets).
+11. Configure [.Rprofile](https://github.com/gvelasq/dotfiles/blob/main/R/.Rprofile).
 
-12. Set Git credentials in R.
+12. Configure [RStudio](https://github.com/gvelasq/dotfiles/tree/main/rstudio).
+
+13. Set Git credentials in R.
 
 ```r
 gitcreds::gitcreds_set()
 ```
 
-13. Install [Quarto](https://quarto.org/docs/get-started/).
+14. Install [Quarto](https://quarto.org/docs/get-started/).
 
-14. Install [kinto](https://github.com/rbreaves/kinto) for macOS-style keyboard shortcuts.
+15. Install [kinto](https://github.com/rbreaves/kinto) for macOS-style keyboard shortcuts.
 
 ```bash
 /bin/bash -c "$(wget -qO- https://raw.githubusercontent.com/rbreaves/kinto/HEAD/install/linux.sh || curl -fsSL https://raw.githubusercontent.com/rbreaves/kinto/HEAD/install/linux.sh)"
