@@ -36,3 +36,5 @@ brew install --cask emacs-mac
 git clone https://github.com/hlissner/doom-emacs ~/.emacs.d
 ~/.emacs.d/bin/doom install
 ```
+
+3. Add Doom Emacs to PATH in [.zshrc](https://github.com/gvelasq/dotfiles/blob/main/zsh/.zshrc#L1-L2).
