@@ -11,6 +11,7 @@ sudo apt install git
 ```bash
 git config --global user.name "<full-name>"
 git config --global user.email "<email>"
+git config --global core.editor "vi"
 ```
 
 3. Install [zsh](https://zsh.sourceforge.io/).
