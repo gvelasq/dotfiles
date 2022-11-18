@@ -37,12 +37,7 @@ git-credential-manager-core configure
 git config --global credential.credentialStore cache
 ```
 
-8. Install [rig](https://github.com/r-lib/rig#macos-homebrew).
-
-```bash
-brew tap r-lib/rig
-brew install --cask rig
-```
+8. Install [rig](https://github.com/r-lib/rig#linux).
 
 9. Install [R](https://www.r-project.org/).
 
