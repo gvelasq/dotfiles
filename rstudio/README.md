@@ -23,7 +23,7 @@ Add the contents of [rstudio-prefs.json](https://github.com/gvelasq/dotfiles/blo
 NOTE:
 
 - Change `default_project_location` to your preferred directory. Default is `~/code`.
-- Change `git_exe_path` to the location of your Git executable. Default is `/usr/local/bin/git`.
+- Change `git_exe_path` to the location of your Git executable, which can be found by typing `which git` in a terminal. Default is `/usr/local/bin/git`.
 - Change `document_author` to your name. Default is `gvelasq`.
 
 #### 3. `rstudio_bindings.json`
