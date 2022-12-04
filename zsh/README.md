@@ -1,8 +1,8 @@
 ## zsh configuration
 
-#### 1. `.zshrc`
+#### 1. .zshrc
 
-Add the contents of [`.zshrc`](https://github.com/gvelasq/dotfiles/blob/main/zsh/.zshrc) to the local version found here:
+Add the contents of [.zshrc](https://github.com/gvelasq/dotfiles/blob/main/zsh/.zshrc) to the local version found here:
 
 ```bash
 ~/.zshrc
