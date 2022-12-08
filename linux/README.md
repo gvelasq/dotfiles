@@ -64,3 +64,10 @@ gitcreds::gitcreds_set()
 ```bash
 /bin/bash -c "$(wget -qO- https://raw.githubusercontent.com/rbreaves/kinto/HEAD/install/linux.sh || curl -fsSL https://raw.githubusercontent.com/rbreaves/kinto/HEAD/install/linux.sh)"
 ```
+
+16. Install [Compiz](https://launchpad.net/compiz) and the Compiz configuration settings manager.
+
+```bash
+sudo apt install compiz
+sudo apt install compizconfig-settings-manager
+```
