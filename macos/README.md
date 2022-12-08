@@ -55,6 +55,10 @@ brew install --cask rstudio-preview
 
 10. Configure [.Rprofile](https://github.com/gvelasq/dotfiles/blob/main/R/.Rprofile).
 
+```r
+usethis::edit_r_profile()
+```
+
 11. Configure [RStudio](https://github.com/gvelasq/dotfiles/tree/main/rstudio).
 
 12. Set Git credentials in R.
