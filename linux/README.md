@@ -70,4 +70,5 @@ gitcreds::gitcreds_set()
 ```bash
 sudo apt install compiz
 sudo apt install compizconfig-settings-manager
+sudo apt install compiz-plugins-extra
 ```
