@@ -49,6 +49,10 @@ rig add release
 
 11. Configure [.Rprofile](https://github.com/gvelasq/dotfiles/blob/main/R/.Rprofile).
 
+```r
+usethis::edit_r_profile()
+```
+
 12. Configure [RStudio](https://github.com/gvelasq/dotfiles/tree/main/rstudio).
 
 13. Set Git credentials in R.
