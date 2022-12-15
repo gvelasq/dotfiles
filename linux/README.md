@@ -1,5 +1,7 @@
 ## Linux configuration
 
+These instructions have been tested with [Ubuntu MATE 22.04](https://ubuntu-mate.org/blog/ubuntu-mate-jammy-jellyfish-release-notes).
+
 1. Install [Git](https://git-scm.com/download/linux).
 
 ```bash
