@@ -61,13 +61,19 @@ usethis::edit_r_profile()
 
 11. Configure [RStudio](https://github.com/gvelasq/dotfiles/tree/main/rstudio).
 
-12. Set Git credentials in R.
+12. Create a [GitHub PAT](https://usethis.r-lib.org/reference/github-token.html).
+
+```r
+usethis::create_github_token()
+```
+
+13. Set [Git credentials](https://gitcreds.r-lib.org/reference/gitcreds_get.html).
 
 ```r
 gitcreds::gitcreds_set()
 ```
 
-13. Install [Quarto](https://quarto.org/docs/get-started/).
+14. Install [Quarto](https://quarto.org/docs/get-started/).
 
 ```bash
 brew install --cask quarto
