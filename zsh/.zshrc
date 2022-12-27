@@ -76,7 +76,7 @@ PROMPT='%F{yellow}%1~%f %F{green}%#%f '
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(alias-finder brew git osx z)
+plugins=(alias-finder brew git macos z)
 
 source $ZSH/oh-my-zsh.sh
 
