@@ -1,6 +1,8 @@
 {
     // Editor: Enable bracket pair colorization
     "editor.bracketPairColorization.enabled": true,
+    // GitLens: Disable GitLens telemetry
+    "gitlens.telemetry.enabled": false,
     // Liveshare: Prompt when receiving focus requests
     "liveshare.focusBehavior": "prompt",
     // R: Treat`names.like.this` as one word for selection
