@@ -6,7 +6,7 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-2. Install [Git](https://git-scm.com/download/linux).
+2. Install [Git](https://git-scm.com/download/mac).
 
 ```bash
 brew install git
