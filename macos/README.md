@@ -1,4 +1,4 @@
-## macOS Configuration
+## [macOS Configuration](https://ivelasq.rbind.io/blog/macos-rig)
 
 1. Install [Homebrew](https://brew.sh).
 
