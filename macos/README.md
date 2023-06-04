@@ -1,6 +1,6 @@
 ## macOS Configuration
 
-1. Install [Homebrew](https://brew.sh/).
+1. Install [Homebrew](https://brew.sh).
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -19,7 +19,7 @@ git config --global user.name "<full-name>"
 git config --global user.email "<email>"
 ```
 
-4. Install [zsh](https://zsh.sourceforge.io/).
+4. Install [zsh](https://zsh.sourceforge.io).
 
 ```bash
 brew install zsh
@@ -40,7 +40,7 @@ brew tap r-lib/rig
 brew install --cask rig
 ```
 
-8. Install [R](https://www.r-project.org/).
+8. Install [R](https://www.r-project.org).
 
 ```bash
 rig add release
@@ -73,7 +73,7 @@ usethis::create_github_token()
 gitcreds::gitcreds_set()
 ```
 
-14. Install [Quarto](https://quarto.org/docs/get-started/).
+14. Install [Quarto](https://quarto.org/docs/get-started).
 
 ```bash
 brew install --cask quarto
