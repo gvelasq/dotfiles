@@ -46,11 +46,10 @@ brew install --cask rig
 rig add release
 ```
 
-9. Install [RStudio Desktop Preview](https://www.rstudio.com/products/rstudio/download/preview/).
+9. Install [RStudio Desktop](https://posit.co/download/rstudio-desktop).
 
 ```bash
-brew tap homebrew/cask-versions
-brew install --cask rstudio-preview
+brew install --cask rstudio
 ```
 
 10. Configure [.Rprofile](https://github.com/gvelasq/dotfiles/blob/main/R/.Rprofile).
