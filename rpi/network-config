@@ -1,0 +1,9 @@
+version: 2
+wifis:
+  renderer: networkd
+  wlan0:
+    dhcp4: true
+    optional: true
+    access-points:
+      "<YOUR_SSID_NAME_HERE>":
+        password: "<YOUR_HASHED_WIFI_PASSWORD_HERE>"
