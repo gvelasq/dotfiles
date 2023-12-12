@@ -5,6 +5,8 @@
     "gitlens.telemetry.enabled": false,
     // Liveshare: Prompt when receiving focus requests
     "liveshare.focusBehavior": "prompt",
+    // Quarto: MathJax theme
+    "quarto.mathjax.theme": "dark",
     // R: Treat`names.like.this` as one word for selection
     "[r]": {
         "editor.wordSeparators": "`~!@#%$^&*()-=+[{]}\\|;:'\",<>/?"
