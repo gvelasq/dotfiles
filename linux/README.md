@@ -16,7 +16,7 @@ git config --global user.email "<email>"
 git config --global core.editor "vi"
 ```
 
-3. Install [zsh](https://zsh.sourceforge.io/).
+3. Install [zsh](https://zsh.sourceforge.io).
 
 ```bash
 sudo apt install zsh
@@ -41,13 +41,13 @@ git config --global credential.credentialStore cache
 
 8. Install [rig](https://github.com/r-lib/rig#linux).
 
-9. Install [R](https://www.r-project.org/).
+9. Install [R](https://www.r-project.org).
 
 ```bash
 rig add release
 ```
 
-10. Install [RStudio Desktop Preview](https://www.rstudio.com/products/rstudio/download/preview/).
+10. Install [RStudio Desktop]([https://posit.co/download/rstudio-desktop).
 
 11. Configure [.Rprofile](https://github.com/gvelasq/dotfiles/blob/main/R/.Rprofile).
 
@@ -63,7 +63,7 @@ usethis::edit_r_profile()
 gitcreds::gitcreds_set()
 ```
 
-14. Install [Quarto](https://quarto.org/docs/get-started/).
+14. Install [Quarto](https://quarto.org/docs/get-started).
 
 15. Install [kinto](https://github.com/rbreaves/kinto) for macOS-style keyboard shortcuts.
 
