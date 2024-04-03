@@ -47,7 +47,7 @@ git config --global credential.credentialStore cache
 rig add release
 ```
 
-10. Install [RStudio Desktop]([https://posit.co/download/rstudio-desktop).
+10. Install [RStudio Desktop](https://posit.co/download/rstudio-desktop).
 
 11. Configure [.Rprofile](https://github.com/gvelasq/dotfiles/blob/main/R/.Rprofile).
 
