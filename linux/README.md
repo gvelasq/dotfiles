@@ -57,21 +57,27 @@ usethis::edit_r_profile()
 
 12. Configure [RStudio](https://github.com/gvelasq/dotfiles/tree/main/rstudio).
 
-13. Set Git credentials in R.
+13. Create a [GitHub PAT](https://usethis.r-lib.org/reference/github-token.html).
+
+```r
+usethis::create_github_token()
+```
+
+14. Set [Git credentials](https://gitcreds.r-lib.org/reference/gitcreds_get.html).
 
 ```r
 gitcreds::gitcreds_set()
 ```
 
-14. Install [Quarto](https://quarto.org/docs/get-started).
+15. Install [Quarto](https://quarto.org/docs/get-started).
 
-15. Install [kinto](https://github.com/rbreaves/kinto) for macOS-style keyboard shortcuts.
+16. Install [kinto](https://github.com/rbreaves/kinto) for macOS-style keyboard shortcuts.
 
 ```bash
 /bin/bash -c "$(wget -qO- https://raw.githubusercontent.com/rbreaves/kinto/HEAD/install/linux.sh || curl -fsSL https://raw.githubusercontent.com/rbreaves/kinto/HEAD/install/linux.sh)"
 ```
 
-16. Install [Compiz](https://launchpad.net/compiz) and the Compiz configuration settings manager.
+17. Install [Compiz](https://launchpad.net/compiz) and the Compiz configuration settings manager.
 
 ```bash
 sudo apt install compiz
@@ -79,4 +85,4 @@ sudo apt install compizconfig-settings-manager
 sudo apt install compiz-plugins-extra
 ```
 
-17. Configure Compiz.
+18. Configure Compiz.
