@@ -33,7 +33,7 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 
 6. Configure [oh-my-zsh](https://github.com/gvelasq/dotfiles/tree/main/zsh).
 
-7. Install [rig](https://github.com/r-lib/rig#macos-homebrew).
+7. Install [rig](https://github.com/r-lib/rig?tab=readme-ov-file#installing-rig-on-macos-).
 
 ```bash
 brew tap r-lib/rig
