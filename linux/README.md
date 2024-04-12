@@ -94,3 +94,36 @@ sudo add-apt-repository ppa:touchegg/stable
 sudo apt update
 sudo apt install touchegg
 ```
+
+20. Configure Touchégg at `~/.config/touchegg/touchegg.conf`.
+
+```xml
+<touchégg>
+  <settings>
+    <property name="animation_delay">150</property>
+    <property name="action_execute_threshold">20</property>
+    <property name="color">auto</property>
+    <property name="borderColor">auto</property>
+  </settings>
+  <application name="All">
+    <gesture type="SWIPE" fingers="3" direction="UP">
+      <action type="SEND_KEYS">
+        <modifiers>Super_L</modifiers>
+        <keys>w</keys>
+        <repeat>false</repeat>
+        <animation>NONE</animation>
+        <on>begin</on>
+      </action>
+    </gesture>
+    <gesture type="SWIPE" fingers="3" direction="DOWN">
+      <action type="SEND_KEYS">
+        <modifiers>Super_L</modifiers>
+        <keys>w</keys>
+        <repeat>false</repeat>
+        <animation>NONE</animation>
+        <on>begin</on>
+      </action>
+    </gesture>
+  </application>
+</touchégg>
+```
