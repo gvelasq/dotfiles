@@ -86,3 +86,11 @@ sudo apt install compiz-plugins-extra
 ```
 
 18. Configure Compiz.
+
+19. Install [Touchégg](https://github.com/JoseExposito/touchegg?tab=readme-ov-file#ubuntu-debian-and-derivatives).
+
+```bash
+sudo add-apt-repository ppa:touchegg/stable
+sudo apt update
+sudo apt install touchegg
+```
