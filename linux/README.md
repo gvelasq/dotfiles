@@ -87,6 +87,16 @@ sudo apt install compiz-plugins-extra
 
 18. Configure Compiz.
 
+`CompizConfig Settings Manager > Scale > Bindings > Initiate Window Picker` should be set to  `<Super>w`, to allow Touchégg to use the `<Super>w` keyboard shortcut with the three-finger swipe gesture below.
+
+```bash
+[scale]
+# ...
+s0_initiate_key = <Super>w
+# ...
+s0_click_on_desktop = 2
+```
+
 19. Install [Touchégg](https://github.com/JoseExposito/touchegg?tab=readme-ov-file#ubuntu-debian-and-derivatives).
 
 ```bash
