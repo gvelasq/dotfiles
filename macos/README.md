@@ -85,3 +85,11 @@ gitcreds::gitcreds_set()
 ```bash
 brew install --cask quarto
 ```
+
+16. Install [AlDente](https://apphousekitchen.com/).
+
+```bash
+brew install --cask aldente
+```
+
+In AlDente settings, disable `Appearance > Popup Window > Show on Startup` and `Appearance > Other > Show Dock Icon`.
