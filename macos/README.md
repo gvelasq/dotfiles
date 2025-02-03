@@ -31,7 +31,7 @@ brew install zsh
 brew install --cask iterm2
 ```
 
-In iTerm2 settings, set `Profiles > Colors > Cursor` color to green and disable `Profiles > Terminal > Show mark indicators`.
+In iTerm2 settings, set `Profiles > Colors > Cursor` to green (`51bf37`) and disable `Profiles > Terminal > Show mark indicators`.
 
 6. Install [oh-my-zsh](https://ohmyz.sh/#install).
 
