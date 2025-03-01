@@ -18,6 +18,7 @@ options(
     License = "MIT + file LICENSE",
     Version = "0.0.0.9000"
   ),
+  usethis.destdir = "~/rrr",
   usethis.full_name = "First Last",
   usethis.protocol = "https",
   vsc.rstudioapi = TRUE,
