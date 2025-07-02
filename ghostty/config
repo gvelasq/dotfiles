@@ -8,3 +8,7 @@ font-thicken = true
 font-thicken-strength = 100
 theme = iTerm2 Dark Background
 shell-integration-features = no-cursor
+window-height = 25
+window-width = 94
+window-position-x = 0
+window-position-y = 0
