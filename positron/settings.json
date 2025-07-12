@@ -1,0 +1,16 @@
+{
+	// Editor: Enable bracket pair colorization
+	"editor.bracketPairColorization.enabled": true,
+	// GitLens: Disable GitLens telemetry
+	"gitlens.telemetry.enabled": false,
+	// Files: Associate .lock files with JSON
+	"files.associations": {
+		"renv.lock": "json"
+	},
+	// Telemetry: Disable telemetry
+	"telemetry.telemetryLevel": "off",
+	// Workbench: Use Tomorrow Night Bright (R Classic) theme
+	"workbench.colorTheme": "Tomorrow Night Bright (R Classic)",
+	// Workbench: Disable experiments
+	"workbench.enableExperiments": false
+}
