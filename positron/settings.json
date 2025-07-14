@@ -12,5 +12,7 @@
 	// Workbench: Use Tomorrow Night Bright (R Classic) theme
 	"workbench.colorTheme": "Tomorrow Night Bright (R Classic)",
 	// Workbench: Disable experiments
-	"workbench.enableExperiments": false
+	"workbench.enableExperiments": false,
+	// Workbench: Use RStudio keybindings
+	"workbench.keybindings.rstudioKeybindings": true
 }
