@@ -7,6 +7,10 @@
 	"files.associations": {
 		"renv.lock": "json"
 	},
+	// R: Format on save
+	"[r]": {
+		"editor.formatOnSave": true
+	},
 	// Telemetry: Disable telemetry
 	"telemetry.telemetryLevel": "off",
 	// Workbench: Use Tomorrow Night Bright (R Classic) theme
