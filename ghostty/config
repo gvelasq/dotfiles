@@ -1,5 +1,5 @@
 adjust-cell-width = -5%
-bold-is-bright = true
+bold-color = #fefefe
 cursor-color = #57bf37
 cursor-style = block
 cursor-style-blink = false
