@@ -25,68 +25,68 @@ git config --global user.email "<email>"
 brew install zsh
 ```
 
-5. Install [iTerm2](https://iterm2.com).
+5. Install [Ghostty](https://ghostty.org).
 
 ```bash
-brew install --cask iterm2
+brew install --cask ghostty
 ```
 
-In iTerm2 settings, set `Profiles > Colors > Cursor` to green (`51bf37`) and disable `Profiles > Terminal > Show mark indicators`.
+6. Configure [Ghostty](https://github.com/gvelasq/dotfiles/blob/main/ghostty/config).
 
-6. Install [oh-my-zsh](https://ohmyz.sh/#install).
+7. Install [oh-my-zsh](https://ohmyz.sh/#install).
 
 ```bash
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-7. Configure [oh-my-zsh](https://github.com/gvelasq/dotfiles/tree/main/zsh).
+8. Configure [oh-my-zsh](https://github.com/gvelasq/dotfiles/tree/main/zsh).
 
-8. Install [rig](https://github.com/r-lib/rig?tab=readme-ov-file#installing-rig-on-macos-).
+9. Install [rig](https://github.com/r-lib/rig?tab=readme-ov-file#installing-rig-on-macos-).
 
 ```bash
 brew tap r-lib/rig
 brew install --cask rig
 ```
 
-9. Install [R](https://www.r-project.org).
+10. Install [R](https://www.r-project.org).
 
 ```bash
 rig add release
 ```
 
-10. Install [RStudio Desktop](https://posit.co/download/rstudio-desktop).
+11. Install [RStudio Desktop](https://posit.co/download/rstudio-desktop).
 
 ```bash
 brew install --cask rstudio
 ```
 
-11. Configure [.Rprofile](https://github.com/gvelasq/dotfiles/blob/main/R/.Rprofile).
+12. Configure [.Rprofile](https://github.com/gvelasq/dotfiles/blob/main/R/.Rprofile).
 
 ```r
 usethis::edit_r_profile()
 ```
 
-12. Configure [RStudio](https://github.com/gvelasq/dotfiles/tree/main/rstudio).
+13. Configure [RStudio](https://github.com/gvelasq/dotfiles/tree/main/rstudio).
 
-13. Create a [GitHub PAT](https://usethis.r-lib.org/reference/github-token.html).
+14. Create a [GitHub PAT](https://usethis.r-lib.org/reference/github-token.html).
 
 ```r
 usethis::create_github_token()
 ```
 
-14. Set [Git credentials](https://gitcreds.r-lib.org/reference/gitcreds_get.html).
+15. Set [Git credentials](https://gitcreds.r-lib.org/reference/gitcreds_get.html).
 
 ```r
 gitcreds::gitcreds_set()
 ```
 
-15. Install [Quarto](https://quarto.org/docs/get-started).
+16. Install [Quarto](https://quarto.org/docs/get-started).
 
 ```bash
 brew install --cask quarto
 ```
 
-16. Install [AlDente](https://apphousekitchen.com/).
+17. Install [AlDente](https://apphousekitchen.com/).
 
 ```bash
 brew install --cask aldente
