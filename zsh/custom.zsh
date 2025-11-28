@@ -1,5 +1,6 @@
 # aliases
 alias bc="brew cleanup"
+alias bcpa="brew cleanup --prune=all"
 alias bi="brew info"
 alias bic="brew info --cask"
 alias bin="brew install"
