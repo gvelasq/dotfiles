@@ -26,3 +26,9 @@ options(
   warnPartialMatchDollar = TRUE,
   warnPartialMatchAttr = TRUE
 )
+erp <- function(...) {
+  usethis::edit_r_profile(...)
+}
+gcs <- function(...) {
+  gitcreds::gitcreds_set(...)
+}
