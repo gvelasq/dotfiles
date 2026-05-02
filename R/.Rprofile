@@ -25,3 +25,10 @@ options(
   warnPartialMatchDollar = TRUE,
   warnPartialMatchAttr = TRUE
 )
+.domain <- "github.com" # replace with target domain
+.remotes <- tryCatch(usethis::git_remotes(), error = function(e) NULL)
+if (!is.null(.remotes) && grepl(.domain, .remotes$origin)) {
+  usethis::use_git_config(scope = "project", user.email = "author@noreply.github.com") # replace with target email
+  cli::cli_alert_success("{ .domain } remote detected and local git options applied")
+}
+rm(.domain, .remotes)
