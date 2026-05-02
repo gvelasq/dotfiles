@@ -21,14 +21,7 @@ options(
   usethis.destdir = "~/rrr",
   usethis.full_name = "First Last",
   usethis.protocol = "https",
-  vsc.rstudioapi = TRUE,
   warnPartialMatchArgs = TRUE,
   warnPartialMatchDollar = TRUE,
   warnPartialMatchAttr = TRUE
 )
-erp <- function(...) {
-  usethis::edit_r_profile(...)
-}
-gcs <- function(...) {
-  gitcreds::gitcreds_set(...)
-}
