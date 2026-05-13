@@ -7,7 +7,7 @@ snippet gvsetup
 	library(here)
 	library(magrittr)
 	library(readxl)
-	if (!require(tidytab)) devtools::install_github("gvelasq/tidytab")
+	if (!require(tidytab)) pak::pak("gvelasq/tidytab")
 	library(tidytab)
 	library(tidyverse)
 	
@@ -17,3 +17,6 @@ snippet dml
 	# !(${1:A} | ${2:B}) == !(${1:A}) & !(${2:B})
 	# the negation of a conjunction is the disjunction of the negations
 	# !(${1:A} & ${2:B}) == !(${1:A}) | !(${2:B})
+
+snippet pak
+	pak::pak("${1:pkg}")
