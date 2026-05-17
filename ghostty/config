@@ -13,3 +13,4 @@ window-height = 25
 window-width = 100
 window-position-x = 0
 window-position-y = 0
+window-save-state = never
